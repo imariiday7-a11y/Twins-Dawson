@@ -314,7 +314,7 @@ Julie每逢节假日就像被“拘留”在家——我猜是她的姓氏的缘
 &lt;&lt;set $hermioneInvite = true&gt;&gt;
 
 亲爱的Daisy：
-我现在在陋居，Weasley家邀请我和他们一起去看魁地奇世界杯。
+我现在在陋居，Weasley家邀请我和他们一起去看魁地奇世界杯。我和Ginny一致认为同样生活在麻瓜世界的你和Phoebe或许和我先前一样不太知道魁地奇世界杯的消息，所以我们想邀请你们一起来。
 	
 	</tw-passagedata><tw-passagedata pid="13" name="Daisy线Lapland的魁地奇世界杯邀请" tags="" position="700,775" size="100,100">我走上前去询问Phoebe惊叫的缘故。她指了指桌面上那封红色的信件，说道：“你看看Lapland的信。”
 
@@ -330,8 +330,7 @@ Daisy Dawson：
 我扭头去看Phoebe手上那封，快有四页纸厚的信。Phoebe察觉到我很快看完了信件，连忙问我：“怎么样？要不要一起去？”
 我思考了一下，决定……
 [[好吧，不去白不去|Daisy·和Lapland去魁地奇世界杯]]
-	&lt;&lt;if hasKey(State.variables,
-    &quot;hermioneInvite&quot;)&gt;&gt;
+	&lt;&lt;if $hermioneInvite&gt;&gt;
     [[三个人的“友谊”太拥挤，我拒绝|Daisy·单人陋居魁地奇世界杯]]
     &lt;&lt;else&gt;&gt;
     [[三个人的“友谊”太拥挤，我拒绝|Daisy·Hermione的信件]]
